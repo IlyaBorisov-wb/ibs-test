@@ -1,0 +1,17 @@
+
+class Locators:
+    USER_LIST_BUTTON = f"//li[@data-id='users']"
+    SINGLE_USER_BUTTON = f"//li[@data-id='users-single']"
+    SINGLE_USER_NOT_FOUNDED_BUTTON = f"//li[@data-id='users-single-not-found']"
+    UNKNOWN_BUTTON = f"//li[@data-id='unknown']"
+    UNKNOWN_SINGLE_BUTTON = f"//li[@data-id='unknown-single']"
+    UNKNOWN_SINGLE_NOT_FOUND_BUTTON = f"//li[@data-id='unknown-single-not-found']"
+    POST_BUTTON = f"//li[@data-id='post']"
+    PUT_BUTTON = f"//li[@data-id='put']"
+    PATCH_BUTTON = f"//li[@data-id='patch']"
+    DELETE_BUTTON = f"//li[@data-id='delete']"
+    REGISTER_SUCCESSFUL_BUTTON = f"//li[@data-id='register-successful']"
+    REGISTER_UNSUCCESSFUL_BUTTON = f"//li[@data-id='register-unsuccessful']"
+    LOGIN_SUCCESSFUL_BUTTON = f"//li[@data-id='login-successful']"
+    LOGIN_UNSUCCESSFUL_BUTTON = f"//li[@data-id='login-unsuccessful']"
+    DELAY_BUTTON = f"//li[@data-id='delay']"
